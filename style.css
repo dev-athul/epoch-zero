@@ -1,0 +1,238 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* nav start */
+
+#nav{
+    background-color: white;
+    margin: 0 !important;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo{
+    color:  #e63946;
+    display: inline;
+}
+.nav-container{
+    display: inline;
+    margin-right: 50px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+    font-weight: 300;
+    font-size: large;
+    color:  #e63946;
+    cursor: pointer;
+    transition: .6s ease-in;
+}
+nav ul li:hover, nav ul li.active{
+    list-style: none;
+    margin: 20px;
+    font-weight: 500;
+    font-size: large;
+    color: white;
+    background-color:  #e63946;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+
+}
+
+/* nav end */
+
+/* header start */
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+
+}
+#header img{
+    width: 40%;
+    margin-left: 10%;
+    position: relative;
+    bottom: 40px;
+}
+#header .writtings{
+    display: flex;
+    flex-direction: column;
+    animation: move 2s;
+    position: relative;
+    bottom: 70px;
+}
+#header h1{
+    color:  #e63946;
+    font-weight: 900;
+    font-size: 64px;
+    margin-bottom: 30px;
+
+}
+#header .writtings h3{
+    color:  #c2444e;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#header .writtings p{
+    color: rgb(63, 63, 63);
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* header end */
+
+/* service start */
+#services{
+    margin-top: 50px;
+}
+
+#services>h1{
+    color:   #e63946;
+    margin-left: 10%;
+}
+.service-box-container{
+    display: flex;
+  
+    justify-content: center;
+
+    
+    flex-wrap: wrap;
+}
+.service-box{
+    height: 30%;
+    width: 300px;
+    margin: 10px;
+    border: 2px solid  rgb(63, 63, 63);
+    padding: 20px;
+}
+.service-box h1{
+    color:  #c2444e;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.service-box p{
+    color:   rgb(63, 63, 63);;
+}
+
+
+/* service end*/
+
+/* info start */
+
+
+#info{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    position: relative;
+    background-color:  #c2444e;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    margin: 40px 0px;
+}
+
+/* info end */
+
+
+/* project start */
+
+#project h1{
+    color: #e63946;
+    margin-bottom: 30px;
+}
+
+#carouselExampleCaptions{
+    height: 300px;
+    width: 70%;
+    margin: auto;
+
+}
+
+#carouselExampleCaptions .card{
+    background-color:    rgb(167, 167, 167);;
+    color: #fff;
+}
+
+/* project end */
+
+.bg{
+    background-color: black;
+}
+
+.card{
+    background-color: rgb(180, 180, 180);
+    height: 300px;
+    
+}
+.button-group{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.button-group button{
+    margin: 10px;
+    padding: 20px auto;
+    width: 300px;
+    background-color: #e63946;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: .8s;
+    height: 60px;
+}
+.button-group button:hover{
+    
+    background-color:  #c2444e;
+
+}
+.button-group button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* animation start */
+
+@keyframes move{
+    0%{
+        left: -200px;
+    }
+    100%{
+        left: 0;
+    }
+}
