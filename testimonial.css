@@ -12,9 +12,8 @@
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    position: relative;
-    left: 40%;
-    
+
+    text-align: center;
     
     color: rgb(139, 216, 246);
     font-size: x-large;
