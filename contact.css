@@ -96,6 +96,7 @@
     outline: none;
     resize: none;
 }
+
 .contactForm .inputBox input[type='submit']{
     width: 100px;
     background-color: #00bcd4;
