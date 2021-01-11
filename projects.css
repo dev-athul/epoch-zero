@@ -12,67 +12,72 @@
     text-align: center;
   }
 
-  .card-image {
-    grid-area: image;
-  }
-  .card-text {
-    grid-area: text;
-  }
-  .card-stats {
-    grid-area: stats; 
-  }
+.card-image {
+  grid-area: image;
+}
+.card-text {
+  grid-area: text;
+}
+.card-stats {
+  grid-area: stats; 
+}
 
-  .card-text {
-    grid-area: text;
-    margin: 25px;
-  }
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
 
-  .card-text p {
-    color: grey;
-    font-size:15px;
-    font-weight: 300;
-  }
-  .card-text h2 {
-    margin-top:0px;
-    font-size:28px;
-  }
+.card-text p {
+  color: grey;
+  font-size:15px;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top:0px;
+  font-size:28px;
+}
 
-  .card-stats {
-    grid-area: stats; 
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr;
-  
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background: rgb(255, 7, 110);
-  }
+.card-stats {
+  grid-area: stats; 
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr;
 
-  .card-stats .stat {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  
-    color: white;
-    padding:10px;
-  }
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: rgb(255, 7, 110);
+}
 
-  .card:hover {
-    transform: scale(1.15);
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-  }
-  .card {
-  
-    width: 300px;
-    transition: 0.5s ease;
-    cursor: pointer;
-    margin:30px;
-  }
-  .btn-see-more{
-      background-color: white;
-      color: rgb(255, 7, 110);
-      padding: 10px;
-      font-weight: 600;
-      border-radius: 5px;
-  }
+.card-stats .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: white;
+  padding:10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card {
+
+  width: 300px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:30px;
+}
+.btn-see-more{
+    background-color: white;
+    color: rgb(255, 7, 110);
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.btn-see-more:hover{
+  box-shadow: 3px 3px 5px 3px #ffffff44 inset;
+  box-shadow: 3px 3px 5px 3px #00000044;
+  background-color: #ddd;
+}
